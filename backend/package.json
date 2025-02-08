@@ -1,0 +1,15 @@
+{
+  "name": "provider-finder-backend",
+  "version": "1.0.0",
+  "description": "Backend for healthcare providers search",
+  "main": "index.js",
+  "scripts": {
+    "build": "sam build",
+    "deploy": "sam deploy --guided",
+    "local": "sam local start-api"
+  },
+  "devDependencies": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

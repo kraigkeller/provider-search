@@ -1,0 +1,62 @@
+[
+  {
+    "id": "1",
+    "name": "Dr. John Doe",
+    "specialty": "Cardiology",
+    "address": "123 Medical St, Philadelphia, PA",
+    "phone": "215-555-0101",
+    "location": {
+      "zipCode": "19104",
+      "county": "Philadelphia County",
+      "state": "PA"
+    }
+  },
+  {
+    "id": "2",
+    "name": "Dr. Jane Smith",
+    "specialty": "Pediatrics",
+    "address": "456 Health Ave, Pittsburgh, PA",
+    "phone": "412-555-0202",
+    "location": {
+      "zipCode": "15213",
+      "county": "Allegheny County",
+      "state": "PA"
+    }
+  },
+  {
+    "id": "3",
+    "name": "Dr. Emily Davis",
+    "specialty": "Neurology",
+    "address": "789 Wellness Rd, Conshohocken, PA",
+    "phone": "610-555-0303",
+    "location": {
+      "zipCode": "19428",
+      "county": "Montgomery County",
+      "state": "PA"
+    }
+  },
+  {
+    "id": "4",
+    "name": "Dr. Michael Brown",
+    "specialty": "Orthopedics",
+    "address": "321 Care Blvd, Levittown, PA",
+    "phone": "215-555-0404",
+    "location": {
+      "zipCode": "19057",
+      "county": "Bucks County",
+      "state": "PA"
+    }
+  },
+  {
+    "id": "5",
+    "name": "Dr. Sarah Wilson",
+    "specialty": "Dermatology",
+    "address": "654 Cure Ln, West Chester, PA",
+    "phone": "610-555-0505",
+    "location": {
+      "zipCode": "19382",
+      "county": "Chester County",
+      "state": "PA"
+    }
+  }
+]

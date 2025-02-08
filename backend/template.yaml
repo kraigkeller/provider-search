@@ -1,0 +1,23 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+Description: Healthcare Providers Search API
+
+Resources:
+  SearchProvidersFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      CodeUri: ./src/lambdas/searchProviders
+      Handler: handler.handler
+      Runtime: nodejs22.x
+      Timeout: 30
+      Events:
+        GraphQL:
+          Type: Api
+          Properties:
+            Path: /graphql
+            Method: post
+        GraphQLOptions:
+          Type: Api
+          Properties:
+            Path: /graphql
+            Method: OPTIONS

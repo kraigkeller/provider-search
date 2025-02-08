@@ -1,0 +1,26 @@
+# Node dependencies
+node_modules/
+
+# SAM build artifacts
+.aws-sam/
+
+# Exclude all yarn lock files
+*.yarn.lock
+yarn.lock
+
+# Frontend build artifacts
+frontend/dist/
+
+# Backend build artifacts (if any)
+backend/build/
+
+# Environment files
+.env
+.env.local
+
+# IDE settings
+.idea/
+.vscode/
+
+# Logs
+*.log

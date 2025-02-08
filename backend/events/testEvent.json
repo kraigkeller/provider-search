@@ -1,0 +1,3 @@
+{
+  "body": "{\"query\":\"query SearchProviders($filters: SearchFilters!) { searchProviders(filters: $filters) { id name specialty address phone location { zipCode county state } } }\",\"variables\":{\"filters\":{\"zipCode\":\"19104\", \"specialty\": \"Cardiology\"}}"
+}

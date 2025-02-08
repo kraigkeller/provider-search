@@ -1,0 +1,25 @@
+type Location {
+  zipCode: String!
+  county: String!
+  state: String!
+}
+
+type Provider {
+  id: ID!
+  name: String!
+  specialty: String
+  address: String
+  phone: String
+  location: Location!
+}
+
+input SearchFilters {
+  zipCode: String
+  county: String
+  specialty: String
+  name: String
+}
+
+type Query {
+  searchProviders(filters: SearchFilters!): [Provider]!
+}
