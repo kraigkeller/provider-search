@@ -3,13 +3,13 @@
 ### Local Development
 1. **Frontend:**
    - `cd frontend`
-   - `yarn install`
+   - `yarn`
    - `yarn dev`
    - Open browser at provided localhost URL.
 
 2. **Backend (Lambda):**
    - `cd ../backend`
-   - Install backend dependencies: `yarn install`
+   - Install backend dependencies: `yarn`
    - Local test: `sam local start-api`
    - Test event: `src/lambdas/searchProviders/events/testEvent.json`
 
@@ -37,7 +37,7 @@
 - From `frontend`:
   ```
   cd ../backend
-  yarn install
+  yarn
   yarn local
   ```
   Test Lambda with `src/lambdas/searchProviders/events/testEvent.json`.
